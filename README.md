@@ -2,7 +2,7 @@
  * @Author: atdow
  * @Date: 2021-04-28 14:27:20
  * @LastEditors: null
- * @LastEditTime: 2021-04-28 16:42:48
+ * @LastEditTime: 2021-04-28 17:43:43
  * @Description: file content
 -->
 
@@ -27,6 +27,7 @@
 2. `cd sailor-server` 进入服务端目录
 
 -   `npm i` 安装服务端依赖
+-   修改`package.json`中的`MONGODB_USER`和`MONGODB_PASSWORD`为本地环境mongodb的用户名和密码
 -   `npm run dev` 开发启动
 
 4. 根目录 `npm run dev` 编译前端
