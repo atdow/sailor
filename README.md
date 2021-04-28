@@ -1,3 +1,11 @@
+<!--
+ * @Author: atdow
+ * @Date: 2021-04-28 14:27:20
+ * @LastEditors: null
+ * @LastEditTime: 2021-04-28 16:42:48
+ * @Description: file content
+-->
+
 # Sailor
 
 水手低码平台（Sailor Low-Code Platform），在线体验：http://sailor.bighome360.com/ ，账号密码：guest/123456
@@ -12,6 +20,8 @@
 ![](./architecture.png)
 
 ## 本地运行
+
+> 注意：需要使用 Node14 版本，Node13 及以下版本不支持
 
 1. 根目录 `npm i` 安装依赖
 2. `cd sailor-server` 进入服务端目录
