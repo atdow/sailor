@@ -21,17 +21,25 @@
 
 ## 本地运行
 
+<<<<<<< .merge_file_a17080
 > 注意：需要使用 Node14 版本，Node13 及以下版本不支持；本地需要安装mongodb；
+=======
+> 注意：需要使用 `Node14+` 版本；
+>>>>>>> .merge_file_a18312
 
 1. 根目录 `npm i` 安装依赖
 2. `cd sailor-server` 进入服务端目录
 
 -   `npm i` 安装服务端依赖
+<<<<<<< .merge_file_a17080
 -   修改`package.json`中的`MONGODB_USER`和`MONGODB_PASSWORD`为本地环境mongodb的用户名和密码
+=======
+-   将根目录文件`package.json`的`scripts.dev`的`MONGODB_USER`和`MONGODB_PASSWORD`修改为为本地 mongodb 的用户名和密码（db sailor）
+>>>>>>> .merge_file_a18312
 -   `npm run dev` 开发启动
 
-4. 根目录 `npm run dev` 编译前端
-5. 根目录 `npm run client:start` 启动前端，http://localhost:8082/
+3. 根目录 `npm run dev` 编译前端
+4. 根目录 `npm run client:start` 启动前端，http://localhost:8082/
 
 ## TODO List
 
@@ -47,11 +55,12 @@
 -   [x] 项目下载
 -   [x] 下载的项目本地运行正常
 
-issues：
+TODO List:
 
 -   [ ] 页面重命名
 -   [ ] 项目重命名
 -   [ ] 页面缓存清除（保存退出、删除之后）
+-   [ ] 统计图渲染问题
 
 ## 使用协议
 
