@@ -18,7 +18,7 @@ export const Project = types.model({
 
 export const ProjectStore = types
     .model('ProjectStore', {
-        state: '',
+        state: '', // pedding|success|error
         downloadLoading: false,
         addModelIsOpen: false,
         projectList: types.array(Project)
@@ -158,7 +158,7 @@ export const ProjectStore = types
                 console.log('onAttach-project');
             },
             afterCreate() {
-                getList();
+                // getList(); // 修复重复请求getList
                 console.log('afterCreate-project');
             }
         };

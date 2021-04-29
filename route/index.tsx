@@ -1,3 +1,10 @@
+/*
+ * @Author: atdow
+ * @Date: 2021-04-28 14:27:20
+ * @LastEditors: null
+ * @LastEditTime: 2021-04-29 15:23:43
+ * @Description: file content
+ */
 import {AlertComponent, Spinner, ToastComponent} from 'amis';
 import {observer} from 'mobx-react-lite';
 import React, {useEffect} from 'react';
