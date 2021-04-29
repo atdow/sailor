@@ -158,7 +158,7 @@ export const ProjectStore = types
                 console.log('onAttach-project');
             },
             afterCreate() {
-                // getList(); // 修复重复请求getList
+                // getList(); // 修复重复请求getList问题
                 console.log('afterCreate-project');
             }
         };
