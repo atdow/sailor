@@ -2,7 +2,7 @@
  * @Author: atdow
  * @Date: 2021-04-28 14:27:20
  * @LastEditors: null
- * @LastEditTime: 2021-04-28 17:45:54
+ * @LastEditTime: 2021-04-29 16:51:20
  * @Description: file content
 -->
 
@@ -21,21 +21,14 @@
 
 ## 本地运行
 
-<<<<<<< .merge_file_a17080
 > 注意：需要使用 Node14 版本，Node13 及以下版本不支持；本地需要安装mongodb；
-=======
-> 注意：需要使用 `Node14+` 版本；
->>>>>>> .merge_file_a18312
+
 
 1. 根目录 `npm i` 安装依赖
 2. `cd sailor-server` 进入服务端目录
 
 -   `npm i` 安装服务端依赖
-<<<<<<< .merge_file_a17080
--   修改`package.json`中的`MONGODB_USER`和`MONGODB_PASSWORD`为本地环境mongodb的用户名和密码
-=======
 -   将根目录文件`package.json`的`scripts.dev`的`MONGODB_USER`和`MONGODB_PASSWORD`修改为为本地 mongodb 的用户名和密码（db sailor）
->>>>>>> .merge_file_a18312
 -   `npm run dev` 开发启动
 
 3. 根目录 `npm run dev` 编译前端
