@@ -2,7 +2,7 @@
  * @Author: atdow
  * @Date: 2021-04-28 14:27:20
  * @LastEditors: null
- * @LastEditTime: 2021-04-29 16:51:20
+ * @LastEditTime: 2021-04-29 16:55:08
  * @Description: file content
 -->
 
@@ -21,8 +21,7 @@
 
 ## 本地运行
 
-> 注意：需要使用 Node14 版本，Node13 及以下版本不支持；本地需要安装mongodb；
-
+> 注意：需要使用 `Node14+` 版本；
 
 1. 根目录 `npm i` 安装依赖
 2. `cd sailor-server` 进入服务端目录
