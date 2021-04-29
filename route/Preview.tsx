@@ -9,7 +9,7 @@ import AsideMenu from '../component/AsideMenu';
 import NotFound from '../component/common/NotFound';
 import {Provider, useStore} from '../store';
 
-let currentProjectId = '-1';
+let currentProjectId = '-1';//无用
 
 function Preview({history, match}: RouteComponentProps<{id: string}>) {
     const store = useStore();
